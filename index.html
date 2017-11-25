@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>giftastic</title>
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="buttons" class="col-md-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 col-xs-8">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div id="gifs">
+                <p class="lead">
+                  This site uses the GIPHY API to populate the page with gifs of your choice.
+                </p> 
+                <p class="lead">
+                  There are some random topics already available above, but feel free to add your own!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="gif-input">Add your own button</label>
+                  <input type="text" class="form-control" id="gif-input" placeholder="gif">
+                </div>
+                <button id="add-gif" type="submit" class="btn btn-info">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <img src="assets/images/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif">
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+</html>
